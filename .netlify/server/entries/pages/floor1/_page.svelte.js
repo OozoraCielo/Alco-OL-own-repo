@@ -1,6 +1,6 @@
 import { c as create_ssr_component, b as add_attribute, f as each, e as escape } from "../../../chunks/index2.js";
 function imagesource(dispenser) {
-  let source = "../src/assets/" + dispenser.status + "-" + dispenser.level + ".png";
+  let source = "../" + dispenser.status + "-" + dispenser.level + ".png";
   return source;
 }
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {

@@ -12,7 +12,10 @@ const config = {
 		}),
 		
 	},
-	preprocess: vitePreprocess()
+	preprocess: vitePreprocess(),
+	files:{
+		assets:'../src'
+	}
 };
 
 export default config;

@@ -30,10 +30,10 @@ const Pagebase = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   return `
 
 
-<div${add_attribute("class", `fixed z-0`, 0)}>${innerWidth < 1200 ? `<img src="../src/assets/main-bg.png" alt=""${add_attribute("class", ``, 0)}>
-        <img src="../src/assets/main-bg.png" alt=""${add_attribute("class", `absolute`, 0)}>
-        <img src="../src/assets/main-bg.png" alt=""${add_attribute("class", `absolute mt-[220px]`, 0)}>
-        <img src="../src/assets/main-bg.png" alt=""${add_attribute("class", `absolute mt-[440px]`, 0)}>` : `<img src="../src/assets/main-bg.png" alt=""${add_attribute("class", ``, 0)}>`}</div>`;
+<div${add_attribute("class", `fixed z-0`, 0)}>${innerWidth < 1200 ? `<img src="../main-bg.png" alt=""${add_attribute("class", ``, 0)}>
+        <img src="../main-bg.png" alt=""${add_attribute("class", `absolute`, 0)}>
+        <img src="../main-bg.png" alt=""${add_attribute("class", `absolute mt-[220px]`, 0)}>
+        <img src="../main-bg.png" alt=""${add_attribute("class", `absolute mt-[440px]`, 0)}>` : `<img src="../main-bg.png" alt=""${add_attribute("class", ``, 0)}>`}</div>`;
 });
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
