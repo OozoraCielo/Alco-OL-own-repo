@@ -1,5 +1,4 @@
-[dev]
-  command = "netlify dev"
-  targetPort = 9000
-  port = 8888
-  publish = "dist"
+[build]
+  command = "npm run build"
+  publish = "build/"
+  functions = "functions/"
