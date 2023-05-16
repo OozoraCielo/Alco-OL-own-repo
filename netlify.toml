@@ -1,3 +1,5 @@
 [dev]
   command = "netlify dev"
-  framework = "vite"
+  targetPort = 9000
+  port = 8888
+  publish = "dist"
